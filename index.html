@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real time character counter app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Real Time Character Counter - Hritik's</h1>
+        <p>Check your english text for grammar, spelling, and punctuation errors with Hritik's real time character counter app </p>
+
+        <textarea name="#" id="textarea" class="textarea" maxlength="350" placeholder="Plzz write here !"></textarea>
+
+        <button onclick="copyText()">Copy Text</button>
+
+        <div class="counter-container">
+            <p>Total Characater: <span id="total-counter">00</span></p>
+            <p>Remaining Characater: <span id="remaining-counter">350</span></p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
